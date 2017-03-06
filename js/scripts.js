@@ -39,10 +39,10 @@ $("#pyramidDiv").mousemove(function (e) {
         $('#HoverImg').attr('src', 'Images/Pyramid_sunrise.jpg');
     }
     else if (xPercent > 25 && xPercent < 50) {
-        $('#HoverImg').attr('src', 'Images/pyramid.jpg');
+        $('#HoverImg').attr('src', 'Images/Pyramid.jpg');
     }
     else if (xPercent > 50 && xPercent < 75) {
-        $('#HoverImg').attr('src', 'Images/Pyramid_night.jpg');
+        $('#HoverImg').attr('src', 'Images/pyramid_night.jpg');
     }
     else if (xPercent > 75 && xPercent < 100) {
         $('#HoverImg').attr('src', 'Images/Pyramid_sunset.jpg');
