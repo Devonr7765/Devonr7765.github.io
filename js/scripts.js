@@ -2,12 +2,12 @@
 $('#DylImg').hover(function () {
     $(this).attr('src', 'Images/Hypno-16-Dylan.gif');
 }, function () {
-    $(this).attr('src', 'Images/db.jpg');
+    $(this).attr('src', 'Images/DB.jpg');
 });
 $('#GlynnImg').hover(function () {
     $(this).attr('src', 'Images/Hypno-5-Glynn.gif');
 }, function () {
-    $(this).attr('src', 'Images/gr.jpg');
+    $(this).attr('src', 'Images/GR.jpg');
 });
 $('#GImg').hover(function () {
     $(this).attr('src', 'Images/Hypno-4-G.gif');
@@ -17,12 +17,12 @@ $('#GImg').hover(function () {
 $('#DevImg').hover(function () {
     $(this).attr('src', 'Images/Hypno-6-Dev.gif');
 }, function () {
-    $(this).attr('src', 'Images/dr.jpg');
+    $(this).attr('src', 'Images/DR.jpg');
 });
 $('#VinceImg').hover(function () {
     $(this).attr('src', 'Images/Hypno-2-Vince.gif');
 }, function () {
-    $(this).attr('src', 'Images/vk.jpg');
+    $(this).attr('src', 'Images/Vk.jpg');
 });
 var divPos = {};
 var offset = $("#pyramidDiv").offset();
