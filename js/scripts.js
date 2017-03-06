@@ -22,7 +22,7 @@ $('#DevImg').hover(function () {
 $('#VinceImg').hover(function () {
     $(this).attr('src', 'Images/Hypno-2-Vince.gif');
 }, function () {
-    $(this).attr('src', 'Images/Vk.jpg');
+    $(this).attr('src', 'Images/VK.jpg');
 });
 var divPos = {};
 var offset = $("#pyramidDiv").offset();
