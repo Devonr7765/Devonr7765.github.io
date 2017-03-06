@@ -24,6 +24,7 @@ $('#VinceImg').hover(function () {
 }, function () {
     $(this).attr('src', 'Images/VK.jpg');
 });
+
 var divPos = {};
 var offset = $("#pyramidDiv").offset();
 $("#pyramidDiv").mousemove(function (e) {
