@@ -160,12 +160,56 @@ img.img-responsive {
     width:100%;
     position:absolute;
 }
-#top-image {
-background:url('https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/0/8/8905/red-rocks-park-o.jpg') -25px -50px;
-position:fixed ;
-top:0;
-width:100%;
-z-index:0;
-  height:100%;
-  background-size: calc(100% + 50px);
-}
+  @import url(http://fonts.googleapis.com/css?family=Roboto+Slab:700);
+
+  body {
+    background: #fff;
+    color: #000;
+    margin: 0;
+  }
+
+  .tiles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .tile {
+    position: relative;
+    float: left;
+    width: 33.333%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: transform .5s ease-out;
+  }
+
+  .txt {
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    bottom: 10%;
+    left: 0;
+    font-family: 'Roboto Slab', serif;
+    font-size: 9px;
+    line-height: 12px;
+    text-align: center;
+    cursor: default;
+  }
+
+  .x {
+    font-size: 32px;
+    line-height: 32px;
+  }
