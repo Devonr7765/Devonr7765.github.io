@@ -43,18 +43,27 @@
         <div class="form-horizontal">
             <div class="form-group">
                 <div class="col-md-6 col-xs-offset-1">
-                    <h3>Lux Viewer Sign Up</h3>
-                    <input type="text" id="email" placeholder="Email address" required />
+                    <h3>Lux Walker Sign Up</h3>
+                    <input type="text" id="email" placeholder="Email address" required /><br />
+                    <input type="text" id="CoName" placeholder="CompanyName" required /><br />
+                    <label>Vive Access <input type="checkbox" id="ViveAccess" /></label>
+                    <textarea id="PcSpecs" class="form-control" rows="3" placeholder="Pc Specs (CPU, RAM, GPU)" required></textarea>
                     <textarea id="body" class="form-control" rows="3" placeholder="Why are you intetested in this software?" required></textarea>
                     <input type="button" onclick="myFunction()" value="submit" />
                     <script>
                         function myFunction() {
                             var input = document.getElementById('email');
                             body = input.value;
+                            var input = document.getElementById('CoName');
+                            body += ";%0D%0A" + input.value;
+                            var input = document.getElementById('ViveAccess');
+                            body += ";%0D%0A" + input.value;
+                            var input = document.getElementById('PcSpecs');
+                            body += ";%0D%0A" + input.value;
                             var input = document.getElementById('body');
                             body += ";%0D%0A" + input.value;
 
-                            window.location.href = "mailto:Tenebrisab@gmail.com" + "?subject=LuxViewerApply" + "&body="+body;
+                            window.location.href = "mailto:Tenebrisab@gmail.com" + "?subject=LuxWalkerApply" + "&body="+body;
                         }
                     </script>
                 </div>
